@@ -1,0 +1,40 @@
+[
+  {
+    "id": "standing_float_serve_side_20260203_204055",
+    "name": "Official Standing Float Serve (Side View)",
+    "description": "Official standing float serve benchmark. Side view. Contact height = head to hand at hit; elbow height = head to elbow at hit.",
+    "serve_type": "standing_float_serve",
+    "camera_angle": "side",
+    "metrics": {
+      "toss_contact_time_s": 1.0,
+      "contact_height_m": 0.35,
+      "elbow_height_m": 0.33,
+      "toss_height_m": 2.6
+    },
+    "source": "Created from frames",
+    "level": "professional",
+    "images": {
+      "toss": "/uploads/benchmarks/serve_references/toss.jpg",
+      "contact": "/uploads/benchmarks/serve_references/contact.jpg"
+    }
+  },
+  {
+    "id": "standing_float_serve_back_20260203_205140",
+    "name": "Official Standing Float Serve (Back View)",
+    "description": "Official standing float serve benchmark. Back view. Contact height = head to hand at hit; elbow height = head to elbow at hit.",
+    "serve_type": "standing_float_serve",
+    "camera_angle": "back",
+    "metrics": {
+      "toss_contact_time_s": 1.0,
+      "contact_height_m": 0.35,
+      "elbow_height_m": 0.33,
+      "toss_height_m": 2.6
+    },
+    "source": "Created from frames",
+    "level": "professional",
+    "images": {
+      "toss": "/uploads/benchmarks/serve_references/toss.jpg",
+      "contact": "/uploads/benchmarks/serve_references/contact.jpg"
+    }
+  }
+]

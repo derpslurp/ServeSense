@@ -1,0 +1,8 @@
+# Optional: for downloading Roboflow volleyball datasets and evaluating ball detection
+# Install from project root: pip install -r scripts/requirements-datasets.txt
+#
+# If you get "Access is denied" on cv2 (Windows): the backend already uses opencv-python.
+# Install Roboflow without its OpenCV dependency so the existing cv2 is used:
+#   pip install roboflow --no-deps
+# Then ensure you have: requests, Pillow, python-dotenv, PyYAML (usually already present).
+roboflow>=1.1.0

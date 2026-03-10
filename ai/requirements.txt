@@ -1,0 +1,6 @@
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+numpy==1.26.4
+# Optional backends for potential future models
+# torch==2.4.0
+# tensorflow==2.16.1

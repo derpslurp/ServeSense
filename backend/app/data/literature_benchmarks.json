@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lit_standing_float_side",
+    "name": "Standing float serve (literature)",
+    "description": "Reference values from kinematic studies; side view. Contact = head to hand; elbow = head to elbow at hit.",
+    "serve_type": "standing_float_serve",
+    "camera_angle": "side",
+    "metrics": {"toss_contact_time_s": 1.0, "contact_height_m": 0.35, "elbow_height_m": 0.33, "toss_height_m": 2.6},
+    "source": "literature",
+    "level": "professional",
+    "citation": "Spatio-temporal serve studies; typical standing float. Elbow 112-117°, shoulder 114-121° at contact (Cal State float serve thesis)."
+  },
+  {
+    "id": "lit_jump_float_side",
+    "name": "Jump float serve (literature)",
+    "description": "Reference values from kinematic studies; side view. MHTC and elbow timing from high-level players.",
+    "serve_type": "jump_float_serve",
+    "camera_angle": "side",
+    "metrics": {"toss_contact_time_s": 1.0, "contact_height_m": 0.35, "elbow_height_m": 0.35, "toss_height_m": 2.8},
+    "source": "literature",
+    "level": "professional",
+    "citation": "Kinematic analyses (MHTC, elbow timing); elite male players. Float effect greater in vertical plane (Frontiers 2020)."
+  },
+  {
+    "id": "lit_jump_float_ijedr2019",
+    "name": "Jump float serve (Khan et al. IJEDR 2019)",
+    "description": "15 Indian international male players (mean height 1.96m). MHTC 312±47cm, arm cocking/acceleration phase.",
+    "serve_type": "jump_float_serve",
+    "camera_angle": "side",
+    "metrics": {"toss_contact_time_s": 1.0, "contact_height_m": 0.38, "elbow_height_m": 0.38, "toss_height_m": 3.12},
+    "source": "literature",
+    "level": "professional",
+    "citation": "Khan, Hussain, Ahmad. IJEDR 2019. MHTC 312±47cm, SSHN 280±15cm. EEAN and MHTC differed significantly between float vs topspin."
+  },
+  {
+    "id": "lit_jump_topspin_side",
+    "name": "Jump topspin serve (literature)",
+    "description": "Reference values from kinematic studies; side view. Higher contact than float; approach velocity key predictor.",
+    "serve_type": "jump_topspin_serve",
+    "camera_angle": "side",
+    "metrics": {"toss_contact_time_s": 1.0, "contact_height_m": 0.42, "elbow_height_m": 0.42, "toss_height_m": 2.9},
+    "source": "literature",
+    "level": "professional",
+    "citation": "Spatio-temporal analysis; international players. Elbow angle at contact 119-133° (Bari et al. Medicine 2023)."
+  },
+  {
+    "id": "lit_jump_topspin_bari2023",
+    "name": "Jump topspin serve (Bari et al. 2023)",
+    "description": "U-23 collegiate men (n=10, height 182.6±4cm). Spike height 327.4±3.8cm; elbow 133°, shoulder 71° at contact.",
+    "serve_type": "jump_topspin_serve",
+    "camera_angle": "side",
+    "metrics": {"toss_contact_time_s": 1.0, "contact_height_m": 0.45, "elbow_height_m": 0.4, "toss_height_m": 3.0},
+    "source": "literature",
+    "level": "professional",
+    "citation": "Bari et al. Medicine (Baltimore) 2023. 30 male collegiate players, 3 cameras 120fps. Approach velocity, SEACP, CG height predict ball velocity."
+  },
+  {
+    "id": "lit_jump_float_bari2023",
+    "name": "Jump float serve (Bari et al. 2023)",
+    "description": "U-21/U-19 collegiate players. Lower spike height than topspin; similar elbow extension at contact.",
+    "serve_type": "jump_float_serve",
+    "camera_angle": "side",
+    "metrics": {"toss_contact_time_s": 1.0, "contact_height_m": 0.32, "elbow_height_m": 0.32, "toss_height_m": 2.85},
+    "source": "literature",
+    "level": "professional",
+    "citation": "Bari et al. Medicine 2023. U-21 spike 268.8±24.7cm, U-19 spike 287.6±30.2cm. Elbow angle 119-128° at contact."
+  }
+]
